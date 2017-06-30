@@ -1,0 +1,61 @@
+Project:
+	✔ Clean compile warnings when running npm start @done (6/29/2017, 4:55:11 PM)
+	✔ Dispaly logo on Navigation @done (6/29/2017, 7:24:27 PM)
+	☐ Reference to a particular product when selecting products form the nav dropdown
+	☐ Add modal window when clicking a product
+	✔ Change Home for Services components @done (6/29/2017, 7:24:35 PM)
+	✔ Update nav menu to look as -> Logo | About | Services | Products | Contact @done (6/29/2017, 7:24:40 PM)
+	✔ Center nav menu, it looks like left oriented @done (6/29/2017, 7:24:43 PM)
+	✔ Fix Grid on App component @done (6/29/2017, 7:24:49 PM)
+	✔ Adding carousel on about page @done (6/29/2017, 8:26:29 PM)
+	✔ Fix Products layout @done (6/29/2017, 10:02:33 PM)
+	✔ Fix Services layout @done (6/29/2017, 10:30:35 PM)
+	✔ Fix Contact layout @done (6/29/2017, 11:04:45 PM)
+	✔ Fix Footer layout @done (6/29/2017, 11:40:01 PM)
+	✔ Fix About layout @done (6/29/2017, 8:27:47 PM)
+
+UI:
+	☐ Fix index.css styles 
+	☐ Get placeholder thumbnails images or glyphs
+	☐ Get Facebook, Twitter, Youtube logos for the Contact page
+	☐ Choose default theme colors
+	☐ Choose default fonts
+		☐ Titles
+		☐ Subtitles
+		☐ Normal
+		☐ Enfasis
+		☐ Navigation
+		☐ Footer
+	☐ Add transitions when navigating between components https://react-bootstrap.github.io/components.html#utilities
+
+Tests:
+	☐ Investigate how to run tests within this project
+	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests
+	☐ Create basic tests for components
+		☐ Navigation
+		☐ Home
+		☐ Products
+		☐ Contact
+		☐ About
+		☐ Footer
+	☐ Test app on mobile
+		☐ Vertical
+		☐ Horizontal
+	☐ Test app on tablet
+		☐ Vertical
+		☐ Horizontal
+	☐ Test app on PC
+		☐ Vertical
+		☐ Horizontal
+	☐ Ask @Gustavo, @Memo and @Alma to test the app
+
+Services:
+	☐ Validate if there are pending tasks
+
+Publishing:
+	☐ Write README.md 
+	☐ Publish app on Github
+	☐ Publish app on heroku	
+
+Bugs:
+	☐ Validate every component in mobile and fix issues

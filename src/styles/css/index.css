@@ -1,0 +1,83 @@
+.app {
+
+}
+
+.header {
+
+}
+
+/* Navigation */
+.navbar-brand {
+  height: 80px;
+  width: auto;
+}
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.navigation {
+
+}
+
+.carousel img{
+  margin: auto;
+  display: block;
+}
+
+.main {
+  margin-top:6em;
+}
+
+.home {
+
+}
+
+.services {
+  padding: 2em;
+}
+
+.services span{
+  font-size: 3em;
+}
+
+.service-item{
+  text-align: center;
+  padding: 3em;
+}
+
+.about {
+  padding: 2em;
+}
+
+.products {
+  padding: 2em;
+}
+
+.products .thumbnail {
+  text-align: center;
+}
+
+.products .thumbnail img {
+  width: 100%;
+}
+
+.contact {
+  padding: 2em;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer div {
+  padding: 1.5em;
+}
+
+.footer span {
+  padding: 0.4em;
+}
