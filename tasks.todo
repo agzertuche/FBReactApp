@@ -53,8 +53,8 @@ Services:
 	☐ Validate if there are pending tasks
 
 Publishing:
-	☐ Write README.md 
-	☐ Publish app on Github
+	☐ Update README.md 
+	✔ Publish app on Github @done (6/29/2017, 11:56:40 PM)
 	☐ Publish app on heroku	
 
 Bugs:
