@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import {Grid,Row} from 'react-bootstrap';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
+import Header from '../header';
+import Main from '../main';
+import Footer from '../footer';
 
 class App extends Component {
   render(){
     return(
       <Grid >
-        <Row className="header">
+        <Row>
           <Header />
         </Row>
           <Main />
-        <Row className="footer">
+        <Row>
           <Footer />
         </Row>
       </Grid>

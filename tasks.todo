@@ -1,8 +1,8 @@
 Project:
 	✔ Clean compile warnings when running npm start @done (6/29/2017, 4:55:11 PM)
 	✔ Dispaly logo on Navigation @done (6/29/2017, 7:24:27 PM)
-	☐ Reference to a particular product when selecting products form the nav dropdown
-	☐ Add modal window when clicking a product
+	✔ Reference to a particular product when selecting products form the nav dropdown @done (7/3/2017, 8:57:42 PM)
+	✔ Add modal window when clicking a product @done (7/3/2017, 8:57:43 PM)
 	✔ Change Home for Services components @done (6/29/2017, 7:24:35 PM)
 	✔ Update nav menu to look as -> Logo | About | Services | Products | Contact @done (6/29/2017, 7:24:40 PM)
 	✔ Center nav menu, it looks like left oriented @done (6/29/2017, 7:24:43 PM)
@@ -13,24 +13,20 @@ Project:
 	✔ Fix Contact layout @done (6/29/2017, 11:04:45 PM)
 	✔ Fix Footer layout @done (6/29/2017, 11:40:01 PM)
 	✔ Fix About layout @done (6/29/2017, 8:27:47 PM)
+	✔ Implement Styled-components 	https://github.com/styled-components/comparison/tree/master/examples/styled-components 	https://github.com/styled-components/styled-components https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc @done (7/4/2017, 3:57:08 AM)
+	✔ group components with styles using index.js inside it own folder @done (7/4/2017, 12:53:48 AM)
 
 UI:
-	☐ Fix index.css styles 
-	☐ Get placeholder thumbnails images or glyphs
-	☐ Get Facebook, Twitter, Youtube logos for the Contact page
-	☐ Choose default theme colors
-	☐ Choose default fonts
-		☐ Titles
-		☐ Subtitles
-		☐ Normal
-		☐ Enfasis
-		☐ Navigation
-		☐ Footer
-	☐ Add transitions when navigating between components https://react-bootstrap.github.io/components.html#utilities
+	✔ Get placeholder thumbnails images or glyphs @done (7/1/2017, 3:20:37 AM)
+	✔ Get Facebook, Twitter, Youtube logos for the Contact page @done (7/1/2017, 3:20:44 AM)
+	✘ Choose default theme colors @cancelled (7/3/2017, 9:29:39 PM)
+	✔ Load a custom font @done (7/3/2017, 9:28:32 PM)
+	✘ Add transitions when navigating between components https://react-bootstrap.github.io/components.html#utilities @cancelled (7/3/2017, 10:16:45 PM) https://fabric.io/blog/introducing-the-velocityreact-library/ https://github.com/twitter-fabric/velocity-react
 
 Tests:
 	☐ Investigate how to run tests within this project
 	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests
+	https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/testing/component-testing.md
 	☐ Create basic tests for components
 		☐ Navigation
 		☐ Home
@@ -53,9 +49,12 @@ Services:
 	☐ Validate if there are pending tasks
 
 Publishing:
-	☐ Update README.md 
+	☐ Analyzing the Bundle Size  	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#analyzing-the-bundle-size
+	☐ Add react-helmet for SEO https://github.com/nfl/react-helmet#examples
+	✔ Update README.md @done (7/4/2017, 4:05:58 AM)
 	✔ Publish app on Github @done (6/29/2017, 11:56:40 PM)
-	☐ Publish app on heroku	
+	✔ Publish app on heroku https://nameless-hollows-68348.herokuapp.com/ @done (6/30/2017, 12:57:02 AM)
+	☐ configure Publish https://blog.heroku.com/deploying-react-with-zero-configuration
 
 Bugs:
 	☐ Validate every component in mobile and fix issues
