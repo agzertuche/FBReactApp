@@ -41,20 +41,24 @@ Tests:
 		☐ Vertical
 		☐ Horizontal
 	☐ Test app on PC
-		☐ Vertical
-		☐ Horizontal
-	☐ Ask @Gustavo, @Memo and @Alma to test the app
+	☐ Ask @Friends to test the app
 
 Services:
-	☐ Validate if there are pending tasks
+	✔ Validate if there are pending tasks @done (7/4/2017, 6:18:41 PM)
 
 Publishing:
-	☐ Analyzing the Bundle Size  	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#analyzing-the-bundle-size
-	☐ Add react-helmet for SEO https://github.com/nfl/react-helmet#examples
-	✔ Update README.md @done (7/4/2017, 4:05:58 AM)
+
+	✔ Analyzing the Bundle Size  	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#analyzing-the-bundle-size @done (7/4/2017, 6:51:06 PM)
+	✔ SEO Best practices @done (7/4/2017, 6:11:42 PM)
+		✔ Add react-helmet for SEO https://github.com/nfl/react-helmet#examples @done (7/4/2017, 6:11:41 PM)
+		✔ Add header tags on each components with nested tags @done (7/4/2017, 6:11:39 PM)
+		✔ Add sitemap.xml file @done (7/4/2017, 5:59:36 PM)
+		✔ Add google analytics @done (7/4/2017, 5:56:17 PM)
+
+	✔ Update README.md @done (7/4/2017, 6:50:49 PM)
 	✔ Publish app on Github @done (6/29/2017, 11:56:40 PM)
 	✔ Publish app on heroku https://nameless-hollows-68348.herokuapp.com/ @done (6/30/2017, 12:57:02 AM)
-	☐ configure Publish https://blog.heroku.com/deploying-react-with-zero-configuration
-
+	✔ configure Publish https://blog.heroku.com/deploying-react-with-zero-configuration @done (7/4/2017, 4:25:10 AM)
+	
 Bugs:
-	☐ Validate every component in mobile and fix issues
+	✔ Validate every component in mobile and fix issues @done (7/4/2017, 6:18:21 PM)

@@ -1,36 +1,43 @@
 import React, {Component} from 'react';
 import {Row, Col, Image} from 'react-bootstrap';
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 const Container = styled(Row)`
   padding: 0 2em;
-  
-  div {
-    text-align: center;
-    padding: 1em;
-  }
+`;
+
+const ContactItem = styled(Col)`
+  text-align: center;
+  padding: 1em;
 `;
 
 class Contact extends Component {
   render(){
     return(
       <Container>
-        <h2>Contact Us</h2>
-        <Row>
+        <Helmet>
+          <title>Contact</title>
+          <meta name="description" content="Contact description" />
+        </Helmet>
+        <Col>
+          <h2>Contact Us</h2>
+        </Col>        
+        <Col>
           <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-        </Row>
-        <Col xs={4}> 
-          <Image src="http://via.placeholder.com/100x100" circle />
+        </Col>
+        <ContactItem xs={4}> 
+          <Image src="http://via.placeholder.com/70x70" circle />
           <h4>Facebook</h4>
-        </Col>
-        <Col xs={4}> 
-          <Image src="http://via.placeholder.com/100x100" circle />
+        </ContactItem>
+        <ContactItem xs={4}> 
+          <Image src="http://via.placeholder.com/70x70" circle />
           <h4>Twitter</h4>
-        </Col>
-        <Col xs={4}> 
-          <Image src="http://via.placeholder.com/100x100" circle />
+        </ContactItem>
+        <ContactItem xs={4}> 
+          <Image src="http://via.placeholder.com/70x70" circle />
           <h4>Youtube</h4>
-        </Col>
+        </ContactItem>
       </Container>
     );
   }

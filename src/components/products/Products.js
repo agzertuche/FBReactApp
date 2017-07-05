@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Row, Col, Thumbnail, Button} from 'react-bootstrap';
 import ModalButton from '../common/ModalButton';
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 const Container = styled(Row)`
   padding: 0 2em;
@@ -19,7 +20,13 @@ class Products extends Component {
   render(){    
     return(
       <Container >
-        <h2>Products</h2>
+        <Helmet>
+          <title>Products</title>
+          <meta name="description" content="Products description" />
+        </Helmet>
+        <Col>
+          <h2>Products</h2>
+        </Col>        
         <Col xs={12} sm={6} lg={4}>
           <Thumbnail src="http://via.placeholder.com/300x200">
             <Row>
@@ -31,7 +38,7 @@ class Products extends Component {
                 <ModalButton modalTitle="Product One" buttonText="Info" />
               </Col>
               <Col xs={6}>
-                <Button bsStyle="primary" onClick={this.showModal} >Buy</Button>
+                <Button bsStyle="primary">Buy</Button>
               </Col>
             </Row>
           </Thumbnail>
@@ -61,22 +68,6 @@ class Products extends Component {
             <Row>
               <Col xs={6}>
                 <ModalButton modalTitle="Product Three" buttonText="Info" />
-              </Col>
-              <Col xs={6}>
-                <Button bsStyle="primary">Buy</Button>
-              </Col>
-            </Row>
-          </Thumbnail>
-        </Col>
-        <Col xs={12} sm={6} lg={4}>
-          <Thumbnail src="http://via.placeholder.com/300x200">
-            <Row>
-              <h3>Product Four</h3>
-              <p>Lorem ipsum dolor sit amet</p>
-            </Row>
-            <Row>
-              <Col xs={6}>
-                <ModalButton modalTitle="Product Four" buttonText="Info" />
               </Col>
               <Col xs={6}>
                 <Button bsStyle="primary">Buy</Button>
