@@ -16,21 +16,21 @@ class Home extends Component{
         </Helmet>
         <Carousel>  
           <Carousel.Item active>
-            <Image src="http://via.placeholder.com/1000x600"/>
+            <Image src="http://via.placeholder.com/1200x600"/>
             <Carousel.Caption>
               <h3>First slide</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <Image src="http://via.placeholder.com/1000x600"/>
+            <Image src="http://via.placeholder.com/1200x600"/>
             <Carousel.Caption>
               <h3>First slide</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <Image src="http://via.placeholder.com/1000x600"/>
+            <Image src="http://via.placeholder.com/1200x600"/>
             <Carousel.Caption>
               <h3>First slide</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

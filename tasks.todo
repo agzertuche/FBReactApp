@@ -24,24 +24,24 @@ UI:
 	✘ Add transitions when navigating between components https://react-bootstrap.github.io/components.html#utilities @cancelled (7/3/2017, 10:16:45 PM) https://fabric.io/blog/introducing-the-velocityreact-library/ https://github.com/twitter-fabric/velocity-react
 
 Tests:
-	☐ Investigate how to run tests within this project
+	✔ Investigate how to run tests within this project @done (7/4/2017, 7:11:19 PM)
 	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests
 	https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/testing/component-testing.md
-	☐ Create basic tests for components
-		☐ Navigation
-		☐ Home
-		☐ Products
-		☐ Contact
-		☐ About
-		☐ Footer
-	☐ Test app on mobile
-		☐ Vertical
-		☐ Horizontal
-	☐ Test app on tablet
-		☐ Vertical
-		☐ Horizontal
-	☐ Test app on PC
-	☐ Ask @Friends to test the app
+	✔ Create basic tests for components @done (7/4/2017, 7:11:16 PM)
+		✔ Navigation @done (7/4/2017, 7:11:21 PM)
+		✔ Home @done (7/4/2017, 7:11:21 PM)
+		✔ Products @done (7/4/2017, 7:11:22 PM)
+		✔ Contact @done (7/4/2017, 7:11:22 PM)
+		✔ About @done (7/4/2017, 7:11:22 PM)
+		✔ Footer @done (7/4/2017, 7:11:23 PM)
+	✔ Test app on mobile @done (7/4/2017, 7:44:46 PM)
+		✔ Vertical @done (7/4/2017, 7:44:47 PM)
+		✔ Horizontal @done (7/4/2017, 7:44:47 PM)
+	✔ Test app on tablet @done (7/4/2017, 7:44:48 PM)
+		✔ Vertical @done (7/4/2017, 7:44:49 PM)
+		✔ Horizontal @done (7/4/2017, 7:44:49 PM)
+	✔ Test app on PC @done (7/4/2017, 7:11:38 PM)
+	✔ Ask @Friends to test the app @done (7/4/2017, 7:45:09 PM)
 
 Services:
 	✔ Validate if there are pending tasks @done (7/4/2017, 6:18:41 PM)

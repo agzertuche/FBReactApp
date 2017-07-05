@@ -5,7 +5,11 @@ import styled from 'styled-components';
 import {Helmet} from 'react-helmet';
 
 const Container = styled(Row)`
-  padding: 0 2em;
+  padding: 0 2em;  
+`;
+
+const ImageContainer = styled(Col)`
+  text-align: center;
 `;
  
 class About extends Component {
@@ -32,9 +36,9 @@ class About extends Component {
           <br/>
           <br/>
         </Col>
-        <Col sm={4}>
-          <Image src="http://via.placeholder.com/200x200" />
-        </Col>
+        <ImageContainer sm={4}>
+          <Image src="http://via.placeholder.com/300x200" />
+        </ImageContainer>
       </Container>
     );
   }
